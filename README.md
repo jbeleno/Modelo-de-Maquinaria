@@ -186,7 +186,19 @@ El ensemble no mejoró el rendimiento del mejor modelo individual (Random Forest
 pip install -r requirements.txt
 ```
 
-### Uso del Modelo
+### ⚠️ Importante: Generación de Modelos
+
+**Por temas de peso de archivos, los modelos entrenados no están incluidos en el repositorio.** Para generar los modelos y archivos necesarios:
+
+1. **Agregar el archivo de datos:** Coloca el archivo `datos_maquinaria_consumo.csv` en la misma carpeta donde vas a trabajar.
+
+2. **Ejecutar el notebook completo:** Abre `modelos_finales_consumo.ipynb` y ejecuta **todas las celdas** en orden para:
+   - Entrenar todos los modelos
+   - Generar los archivos `.pkl` de los modelos entrenados
+   - Crear el archivo de predicciones detalladas
+   - Generar todos los resultados de evaluación
+
+### Uso del Modelo (después de generar los modelos)
 ```python
 import joblib
 import pandas as pd
