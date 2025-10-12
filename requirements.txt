@@ -1,0 +1,24 @@
+# Dependencias para el Modelo de Predicción de Consumo de Combustible
+# Maquinaria Agrícola
+
+# Análisis de datos y manipulación
+pandas>=1.3.0
+numpy>=1.21.0
+
+# Visualización
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Machine Learning
+scikit-learn>=1.0.0
+xgboost>=1.5.0
+
+# Serialización de modelos
+joblib>=1.1.0
+
+# Jupyter Notebook (opcional)
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Utilidades adicionales
+tqdm>=4.62.0
