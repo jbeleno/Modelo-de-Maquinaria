@@ -8,6 +8,10 @@
 *.csv
 datos_maquinaria_consumo.csv
 predicciones_completas_detalladas.csv
+importancia_variables.csv
+
+# Archivos generados por el análisis
+evaluacion_completa_modelos.txt
 
 # Archivos temporales de Python
 __pycache__/

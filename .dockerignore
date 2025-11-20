@@ -1,0 +1,25 @@
+# Ignorar archivos innecesarios para Docker
+*.ipynb
+*.pkl
+*.csv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.git/
+.gitignore
+.env
+.venv
+venv/
+.DS_Store
+*.txt
+!requirements.txt
+*.md
+!README*.md
+
